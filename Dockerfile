@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM debian
+FROM ubuntu:16:04
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
